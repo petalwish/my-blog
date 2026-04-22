@@ -12,21 +12,20 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // 将 Blog 链接指向你的第一篇文章
-      { text: 'Blog', link: '/posts/hello-world' }
+      { text: 'Blog', link: '/posts/insight-garden/hello-world' }
     ],
 
     sidebar: [
       {
         text: '🧪 AI Life Science',
         items: [
-          { text: 'Hello World', link: '/posts/hello-world' }
+
         ]
       },
       {
         text: '🤖 Agent',
         items: [
           // 以后有了新文章，在这里添加一行，例如：
-          // { text: 'OpenClaw 架构', link: '/posts/openclaw-arch' }
         ]
       },
       {
@@ -38,7 +37,6 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      // 换成你自己的 GitHub 链接，建立个人品牌
       { icon: 'github', link: 'https://github.com/petalwish' }
     ],
 
