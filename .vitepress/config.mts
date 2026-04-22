@@ -12,7 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       // 将 Blog 链接指向你的第一篇文章
-      { text: 'Blog', link: '/posts/insight-garden/hello-world' }
+      { text: 'Blog', link: '/posts/insight-garden/surfing AI.md' }
     ],
 
     sidebar: [
